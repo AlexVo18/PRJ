@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px 30px;
+    border-radius: 100%;
+}
+.cart{
+    width: 50px;
+    height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #7ed79b;
+}
+.header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 1000px;
+}
+.header div ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-user{
+    display: flex;
+    justify-content: center;
+    background-color: #7ed79b;
+}
+.header-user div{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    height: 30px;
+    width: 1000px;
+}
+.header-user div ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-user div ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+}
+.searchbar{
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 1000px;
+    display: flex;
+    align-content: center;
+}
+.background{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 50px 0;
+    background-color: #fbfbfb;
+    width: 100%;
+}
+/*-------------------------------------Item---------------------------------- */
+.item{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    display: inline-block;
+    background-color: #fbfbfb;
+    margin: 25px;
+    width: 24%;
+    border: 0.5px solid #9da3a1;
+    border-radius: 10%;
+}
+.item li:nth-child(2){
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item li:first-child{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.item li:first-child img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.item li:last-child{
+    display: flex;
+    text-align: center;
+    width: 80px;
+    justify-content: center;
+    margin-left: 80px;
+}
+.item li:last-child form{
+    width: 40px;
+}
+.item-add-button{
+    border-radius: 15%;
+    border:0.5px solid #9da3a1;
+    color: black;
+    font-weight: bold;
+    padding: 2px 8px;
+}
+
+/*-------------------------------------Cart---------------------------------- */
+.empty-cart{
+    text-align: center;
+}
+.cart-location{
+    width: 1000px;
+    
+}
+.cart-location-item{
+    
+}
+
+/*-----------------------------------Order Table-------------------------------- */
+.order-header{
+    display: flex;
+    justify-content: center;
+    background-color: #7ed79b;
+}
+.order-header form{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+.order-header form p{
+    display: inline-block;
+    color: black;
+    
+}
+.order-header form p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+.user-order{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: #7ed79b;
+}
+.order{
+    width: 1000px;
+}
+.order{
+    text-align: left;
+}
+.order thead tr th, .order tbody tr td{
+    padding: 12px 15px;
+}
+.order thead{
+    background-color: #5ace9e;
+    color: white;
+}
+.order tbody tr{
+    border-bottom: 1px solid;
+    border-color: #5ace9e;
+}
+.order tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+.order tbody tr td:last-child a{
+    text-decoration: none;
+    color: blue;
+}
+
+/*-----------------------------------Footer----------------------------------- */
+.footer{
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 200px;
+    background-color: #7ed79b;
+    align-items: center; 
+    
+}
+.footer p{
+    margin: 0px;
+    font-weight: bold;
+}

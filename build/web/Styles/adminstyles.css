@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2023, 4:55:27 PM
+    Author     : Admin
+*/
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e1f5eb;
+    font-size: 24px;
+    color: #006666;
+} 
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px 30px;
+    border-radius: 100%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.hero img{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+
+.admin-plant{
+    width: 100%;
+}
+.admin-plant-cate{
+    text-align: center;
+}
+
+.admin-plant thead tr th, .admin-plant tbody tr td{
+    padding: 12px 15px;
+}
+.admin-plant thead:not(admin-plant-cate){
+}
+.admin-plant tbody tr{
+    border-bottom: 1px solid;
+    border-color: #5ace9e;
+}
+.admin-plant tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+.admin-plant tbody tr td:last-child a{
+    text-decoration: none;
+    color: blue;
+}
+
+.admin-plant{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: #7ed79b;
+}
